@@ -53,7 +53,6 @@ body {
   top: -2500%;
   left: -6%;
   border-radius: 50%;
-  /* border: 2px solid green; */
   filter: blur(100px);
 }
 .logo-left {
@@ -105,6 +104,19 @@ body {
 .branding{
   width: 80%;
   margin: 6rem auto;
+  position: relative;
+}
+
+.gradient-2{
+  height: 662px;
+  width: 610px;
+  background-color: #8ECBCC;
+  position: absolute;
+  top: -219%;
+  left: 81%;
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: -1;
 }
 
 .branding > h3 {
@@ -112,5 +124,7 @@ body {
   font-size: 15px;
   margin: 0px 0px 13px 4px;
 }
-
+.for-gradient{
+  overflow: hidden;
+}
 /* braning css ends */
