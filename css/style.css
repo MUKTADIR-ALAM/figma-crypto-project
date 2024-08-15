@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #000036;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+/* shared styles */
+.btn-primary {
+  padding: 15px 32px;
+  border-radius: 23px;
+  background-color: rgb(141, 141, 218);
+  color: white;
+  border: none;
+  font-family: "Outfit", sans-serif;
+}
+
+.btn-secondary {
+  padding: 15px 32px;
+  border-radius: 23px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #83cdce;
+  font-family: "Outfit", sans-serif;
+}
+
+/* shared styles */
+
+/* navbar css starts  */
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.gradient {
+  height: 662px;
+  width: 610px;
+  background-color: #8d8dda;
+  position: absolute;
+  top: -2500%;
+  left: -6%;
+  border-radius: 50%;
+  /* border: 2px solid green; */
+  filter: blur(100px);
+}
+.logo-left {
+  z-index: 1;
+}
+
+.logo-left > h1 {
+  font-size: large;
+  color: white;
+}
+
+.left-text > p {
+  margin: 40px 0;
+}
+
+.nav-right > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 300px;
+}
+
+.nav-right > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+/* navbar css ends  */
+
+/* hero css starts */
+.hero {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 8rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.left-text > h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+/* hero css ends */
+
+/* braning css starts */
+.branding{
+  width: 80%;
+  margin: 6rem auto;
+}
+
+.branding > h3 {
+  color: white;
+  font-size: 15px;
+  margin: 0px 0px 13px 4px;
+}
+
+/* braning css ends */
