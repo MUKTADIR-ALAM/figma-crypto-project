@@ -11,6 +11,7 @@ body {
   background-color: #000036;
   max-width: 1800px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 /* shared styles */
@@ -105,15 +106,18 @@ body {
   width: 80%;
   margin: 6rem auto;
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.gradient-2{
-  height: 662px;
+.gradient-2 {
+  height: 548px;
   width: 610px;
   background-color: #8ECBCC;
   position: absolute;
-  top: -219%;
-  left: 81%;
+  top: -226%;
+  left: 90%;
   border-radius: 50%;
   filter: blur(100px);
   z-index: -1;
@@ -124,7 +128,5 @@ body {
   font-size: 15px;
   margin: 0px 0px 13px 4px;
 }
-.for-gradient{
-  overflow: hidden;
-}
+
 /* braning css ends */
